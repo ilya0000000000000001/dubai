@@ -1,0 +1,749 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+  background-color: #272727;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #272727;
+  padding: 20px 0;
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+}
+.header_menu {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+.header_logo {
+  margin-right: 100px;
+}
+.menu_li {
+  padding: 20px;
+}
+.menu_link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.header_btn {
+  background: #fcd54c;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding: 10px 15px;
+  margin-right: 100px;
+}
+.tel {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.dropdown_custom {
+  background: #272727;
+}
+.dropdown_custom :hover {
+  background: #fcd54c;
+}
+.home_img {
+  width: 100%;
+}
+/* --------------------------------------------------------------- */
+.home {
+  background: linear-gradient(
+      0deg,
+      rgba(39, 39, 39, 0.5),
+      rgba(39, 39, 39, 0.5)
+    ),
+    url(./img/slider1.png);
+  padding: 200px 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* ---------------------------------------------------------------- */
+.menu_projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projects_text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  color: #ffffff;
+  margin-right: 250px;
+}
+.text_projects {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fcd54c;
+  padding: 0px 10px;
+}
+.projects_menu {
+  display: flex;
+  padding: 30px;
+}
+/* ------------------------------------------------------------------- */
+
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  perspective: 500px;
+  background: radial-gradient(white, lightgray);
+  margin: 10px;
+}
+.text_card {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  color: #272727;
+}
+
+/* --------------------------------------------------------------- */
+.projects {
+  background: #272727;
+  padding: 50px 0;
+}
+.text_dubai {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 69px;
+  color: #e8e8e8;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.text_dubai {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 69px;
+  color: #e8e8e8;
+  text-align: center;
+}
+.text_dubai_title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #e8e8e8;
+  max-width: 700px;
+  text-align: center;
+}
+.apartament_dubai {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+/* ---------------------------------------------------------------------- */
+.border_text {
+  border: 1px solid #fcd54c;
+  box-sizing: border-box;
+}
+.border_text_title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 160%;
+  color: #ffffff;
+  max-width: 900px;
+  padding: 50px;
+}
+.text_card {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+/* ------------------------------------------------------------------- */
+.hotel_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #e8e8e8;
+  max-width: 500px;
+  margin-top: 20px;
+}
+.hotel_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.hotel_img {
+  width: 100%;
+  max-width: 550px;
+}
+/* ------------------------------------------------------------------------------------ */
+.contact_us {
+  background: url(./img/Rectangle\ 868.png);
+  padding: 50px 0;
+  background-blend-mode: overlay, normal;
+}
+.text_contact {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #272727;
+}
+.text_contact_title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 69px;
+  text-align: center;
+  color: #272727;
+}
+.projects_text_card {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  color: #ffffff;
+}
+.container_input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.search {
+  background-color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #272727;
+  opacity: 0.5;
+  padding: 10px;
+  border: 1px solid #050606;
+  padding: 10px 60px;
+}
+.input_submit {
+  color: #e8e8e8;
+  background: #000000;
+  padding: 10px 40px;
+  text-align: center;
+}
+.search:hover,
+.search:focus {
+  outline: none !important;
+  border: 1px solid #2196f3;
+}
+/* ------------------------------------------------------------- */
+.articles {
+  padding: 50px 100px;
+}
+.text_articles {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+/* ------------------------------------------------------------- */
+.card_time {
+  display: flex;
+  justify-content: space-around;
+}
+.card_time_wrapper {
+  border: 1px solid #fcd54c;
+  max-width: 500px;
+}
+.card_time_text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 20px;
+}
+.card_time_wrapper {
+  padding: 20px;
+}
+.time_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #929292;
+}
+/* ------------ */
+.text_faq {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.text_faq_title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 20px;
+}
+.line {
+  border: 1px solid #929292;
+  margin: 20px;
+  margin: 40px;
+}
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+/* ---------------------------------------------------- */
+.footer {
+  background: #272727;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px 0;
+}
+.footer_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.footer_info_wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 100px;
+}
+.footer_info_col {
+  display: flex;
+  flex-direction: column;
+}
+.footer_col_title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #e8e8e8;
+  margin-bottom: 40px;
+}
+.footer_col_link {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #e8e8e8;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.footer_button {
+  background: #fcd54c;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding: 10px;
+  max-width: 200px;
+}
+.footer_button_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+/* ----------------- */
+.footer_social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.owl-carousel {
+  margin-bottom: 20px;
+}
+.footer_social_text {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #e8e8e8;
+}
+.last_section {
+  padding: 30px 0;
+}
+.footer_icon_img {
+  margin-right: 10px;
+}
+.iframe_wrapper {
+  width: 100%;
+}
+.accordion_wrapper {
+  display: none;
+}
+.panel_wrapper {
+  padding: 20px;
+}
+
+/* ---------------------------------------------- */
+@media screen and (max-width: 1300px) {
+  .iframe_wrapper {
+    max-width: 1300px;
+  }
+  .footer_info_wrapper {
+    display: none;
+  }
+  .home_img {
+    width: 100%;
+  }
+  .hotel_img {
+    width: 100%;
+  }
+  .tel {
+    display: none;
+  }
+  .accordion_wrapper {
+    display: block;
+  }
+  .header_btn {
+    display: none;
+  }
+  .hotel_text {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .text_dubai_title {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card_time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects_menu {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header_menu {
+    display: none;
+  }
+  .header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home_img {
+    max-width: 300px;
+    width: 100%;
+  }
+  .overlay__text {
+    display: none;
+  }
+  .header_menu {
+    display: none;
+  }
+  .footer_icon {
+    display: flex;
+    justify-content: center;
+  }
+  .text_dubai {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #e8e8e8;
+  }
+  .home {
+    padding: 100px;
+  }
+  .text_articles {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .footer_col_link {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card__overlay {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .text_contact_title {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 69px;
+    text-align: center;
+    color: #272727;
+  }
+}
+@media screen and (max-width: 700px) {
+  .projects_text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 69px;
+    color: #ffffff;
+    margin-right: 250px;
+  }
+
+  .projects_text_card {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 69px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 700px) {
+  .text_faq {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .card_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hotel_cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu_projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  .search {
+    background-color: #ffffff;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #272727;
+    opacity: 0.5;
+    padding: 10px;
+    border: 1px solid #050606;
+    padding: 10px 20px;
+  }
+  .articles {
+    padding: 20px;
+  }
+  .hotel_text {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #e8e8e8;
+    max-width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./accordion.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./card.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./burger.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_wrapper">
+          <a class="header_logo" href=""><img src="./img/Logo.png" alt="" /></a>
+          <ul class="header_menu">
+            <li class="menu_li">Buy</li>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Buy
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li>
+                  <a class="dropdown-item dropdown_custom" href="#">Action</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+            <li class="menu_li">
+              <a href="./blog.html" class="menu_link">Blog</a>
+            </li>
+            <li class="menu_li">
+              <a href="./services.html" class="menu_link">About</a>
+            </li>
+            <li class="menu_li">
+              <a href="./contact.html" class="menu_link">Contact</a>
+            </li>
+          </ul>
+          <button class="header_btn">Book a consultation</button>
+          <a class="tel" href="tel:+7 (212) 674-25-10">+380733991113</a>
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu">
+            <nav>
+              <ul>
+                <li class="menu_burger_li">
+                  <a class="menu_li_link" href="./index.html"> Buy</a>
+                </li>
+                <li class="menu_burger_li">
+                  <a class="menu_li_link" href="./blog.html"> Blog</a>
+                </li>
+                <li class="menu_burger_li">
+                  <a class="menu_li_link" href="./category.html"> About</a>
+                </li>
+                <li class="menu_burger_li">
+                  <a class="menu_li_link" href="./contact.html"> Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -------------------------------------------------------------------------- -->
+
+  
+    <!-- -------------------------------------------------------------------------- -->
+    <section class="home">
+      <div class="container">
+        <img class="home_img" src="./img/Group 87.png" alt="" />
+        <div class="home_wrapper">
+          <div class="home_title">
+            <h1 class="text_home"></h1>
+            <p class=""></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <div class="projects_menu">
+          <h1 class="projects_text_card">Latest projects</h1>
+          <ul class="menu_projects">
+            <li class="text_projects">All</li>
+            <li class="text_projects">Building</li>
+            <li class="text_projects">Interior</li>
+            <li class="text_projects">View all projects</li>
+          </ul>
+        </div>
+        <div class="card_wrapper">
+            <div class="owl-carousel owl-theme">
+      <div class="item"> <div class="card_link">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div> </div>
+      <div class="item"> <div class="card_link">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div> </div>
+      <div class="item">  <div class="card_link">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div></div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+      <div class="item"> </div>
+    </div>
+          <!-- <div class="card_link">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="card_link">
+            <img src="./img/428x573 (2).png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div>
+          <div class="card_link">
+            <img src="./img/428x573 (1).png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div>
+          <div class="card_link">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <div class="apartament_dubai">
+          <h2 class="text_dubai">
+            "The best apartment in Dubai" we will find your dream
+          </h2>
+          <p class="text_dubai_title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            nibh massa, euismod ut libero id, blandit posuere augue. Morbi porta
+            volutpat diam egestas ultrices. Phasellus tempus fringilla neque,
+            nec viverra orci tristique vel. In efficitur vehicula magna, varius
+            pellentesque nisl vehicula vel. Aenean vel sem ac elit commodo
+            finibus in nec massa. Nulla facilisi. Nulla vestibulum venenatis
+            sollicitudin. Etiam auctor mollis justo eu tincidunt. Aliquam varius
+            varius tortor. Cras id venenatis sem. Quisque ut risus ex. Sed et
+            tempor massa. Praesent ac eros hendrerit, congue justo ac, molestie
+            urna. Fusce nec neque vitae dolor dapibus elementum. Maecenas nec
+            orci quis sem condimentum dapibus varius a lorem. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <iframe
+          class="iframe_wrapper"
+          height="600"
+          allowfullscreen
+          src="https://www.youtube.com/embed/p0ggtmXghPg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <div class="apartament_dubai">
+          <div class="border_text">
+            <div class="border_text_title">
+              <p class="text_card">
+                “Don t limit yourself. Many people limit themselves to what they
+                think they can do. You can go as far as your mind lets you. What
+                you believe, remember, you can achieve.” — Mary Kay Ash
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hotel_cards">
+          <div class="hotel_card">
+            <img class="hotel_img" src="./img/placeholder.png" alt="" />
+            <p class="hotel_text">
+              Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis.
+              Pellentesque augue elit, rutrum sit amet commodo vel, porta quis
+              purus. Nullam faucibus, odio eu bibendum auctor, eros dolor
+              aliquet purus, sit amet pellentesque neque est id tortor. In
+              egestas, erat a dapibus dapibus, mi augue ornare lorem, nec
+              pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam
+              pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam
+              mattis justo consequat risus. Donec imperdiet enim id efficitur
+              pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis
+              nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam
+              viverra ultrices est vitae suscipit. Pellentesque elementum purus
+              non nisl pharetra consequat. Nunc in venenatis orci.
+            </p>
+          </div>
+          <div class="hotel_card">
+            <img class="hotel_img" src="./img/placeholder.png" alt="" />
+            <p class="hotel_text">
+              Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis.
+              Pellentesque augue elit, rutrum sit amet commodo vel, porta quis
+              purus. Nullam faucibus, odio eu bibendum auctor, eros dolor
+              aliquet purus, sit amet pellentesque neque est id tortor. In
+              egestas, erat a dapibus dapibus, mi augue ornare lorem, nec
+              pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam
+              pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam
+              mattis justo consequat risus. Donec imperdiet enim id efficitur
+              pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis
+              nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam
+              viverra ultrices est vitae suscipit. Pellentesque elementum purus
+              non nisl pharetra consequat. Nunc in venenatis orci.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="contact_us">
+          <p class="text_contact">Do you have any questions?</p>
+          <p class="text_contact_title">Contact us</p>
+          <form class="container_input">
+            <input
+              type="text"
+              name="text"
+              class="search"
+              placeholder="Enter your mail"
+              Search
+              here!
+            />
+            <input
+              class="input_submit"
+              type="submit"
+              name="submit"
+              class="submit"
+              value="Send"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="articles">
+      <div class="container">
+        <p class="text_articles">Useful articles</p>
+        <div class="card_wrapper">
+          <div class="card">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/428x573.png" class="card__image" />
+            <div class="card__overlay">
+              <div class="overlay__text">
+                <h3 class="overlay__title">Dubai</h3>
+                <p class="text_card_overlay">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="button">See project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="card_time">
+          <div class="card_time_wrapper">
+            <img class="img_time" src="./img/Mask Group.png" alt="" />
+            <p class="card_time_text">Paul</p>
+            <p class="time_text">Owner in Paul.com</p>
+            <p class="time_text">
+              Projects for many large domestic and foreign corporations,
+              enterprises in many elds such as nance, banking, F&B, education,
+              communication.
+            </p>
+          </div>
+          <div class="card_time_wrapper">
+            <img class="img_time" src="./img/Mask Group.png" alt="" />
+            <p class="card_time_text">Paul</p>
+            <p class="time_text">Owner in Paul.com</p>
+            <p class="time_text">
+              Projects for many large domestic and foreign corporations,
+              enterprises in many elds such as nance, banking, F&B, education,
+              communication.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="articles">
+      <div class="container">
+        <div class="faq">
+          <div class="text_faq">FAQ</div>
+          <div class="line"></div>
+          <button class="accordion">
+            The largest and oldest Quotations Page on the Web with about 30
+            categories
+          </button>
+          <div class="panel">
+            <p class="text_faq_title">
+              Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis.
+              Pellentesque augue elit, rutrum sit amet commodo vel, porta quis
+              purus. Nullam faucibus, odio eu bibendum auctor, eros dolor
+              aliquet purus, sit amet pellentesque neque est id tortor. In
+              egestas, erat a dapibus dapibus, mi augue ornare lorem, nec
+              pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam
+              pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam
+              mattis justo consequat risus. Donec imperdiet enim id efficitur
+              pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis
+              nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam
+              viverra ultrices est vitae suscipit. Pellentesque elementum purus
+              non nisl pharetra consequat. Nunc in venenatis orci.
+            </p>
+          </div>
+          <button class="accordion">
+            A huge collection of inspirational quotes, thoughts of greatest
+            minds in history
+          </button>
+          <div class="panel">
+            <p class="text_faq_title">
+              Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis.
+              Pellentesque augue elit, rutrum sit amet commodo vel, porta quis
+              purus. Nullam faucibus, odio eu bibendum auctor, eros dolor
+              aliquet purus, sit amet pellentesque neque est id tortor. In
+              egestas, erat a dapibus dapibus, mi augue ornare lorem, nec
+              pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam
+              pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam
+              mattis justo consequat risus. Donec imperdiet enim id efficitur
+              pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis
+              nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam
+              viverra ultrices est vitae suscipit. Pellentesque elementum purus
+              non nisl pharetra consequat. Nunc in venenatis orci.
+            </p>
+          </div>
+          <button class="accordion">
+            Quotations from the great works of literature
+          </button>
+          <div class="panel">
+            <p class="text_faq_title">
+              Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis.
+              Pellentesque augue elit, rutrum sit amet commodo vel, porta quis
+              purus. Nullam faucibus, odio eu bibendum auctor, eros dolor
+              aliquet purus, sit amet pellentesque neque est id tortor. In
+              egestas, erat a dapibus dapibus, mi augue ornare lorem, nec
+              pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam
+              pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam
+              mattis justo consequat risus. Donec imperdiet enim id efficitur
+              pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis
+              nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam
+              viverra ultrices est vitae suscipit. Pellentesque elementum purus
+              non nisl pharetra consequat. Nunc in venenatis orci.
+            </p>
+          </div>
+          <button class="accordion">
+            Read quotes and sayings from famous people in history
+          </button>
+          <div class="panel">
+            <p class="text_faq_title">
+              Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis.
+              Pellentesque augue elit, rutrum sit amet commodo vel, porta quis
+              purus. Nullam faucibus, odio eu bibendum auctor, eros dolor
+              aliquet purus, sit amet pellentesque neque est id tortor. In
+              egestas, erat a dapibus dapibus, mi augue ornare lorem, nec
+              pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam
+              pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam
+              mattis justo consequat risus. Donec imperdiet enim id efficitur
+              pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis
+              nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam
+              viverra ultrices est vitae suscipit. Pellentesque elementum purus
+              non nisl pharetra consequat. Nunc in venenatis orci.
+            </p>
+          </div>
+          <button class="accordion">
+            Collected quotes from Albert Einstein
+          </button>
+          <div class="panel">
+            <p class="text_faq_title">
+              Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis.
+              Pellentesque augue elit, rutrum sit amet commodo vel, porta quis
+              purus. Nullam faucibus, odio eu bibendum auctor, eros dolor
+              aliquet purus, sit amet pellentesque neque est id tortor. In
+              egestas, erat a dapibus dapibus, mi augue ornare lorem, nec
+              pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam
+              pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam
+              mattis justo consequat risus. Donec imperdiet enim id efficitur
+              pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis
+              nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam
+              viverra ultrices est vitae suscipit. Pellentesque elementum purus
+              non nisl pharetra consequat. Nunc in venenatis orci.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_logo">
+          <img src="./img/Logo.png" alt="" />
+        </div>
+        <div class="footer_info_wrapper">
+          <div class="footer_info_col">
+            <h3 class="footer_col_title">Buy</h3>
+            <a class="footer_col_link" href="">Apartment in Dubai</a>
+            <a class="footer_col_link" href="">House in Dubai</a>
+            <a class="footer_col_link">Apartments in Dubai</a>
+            <a class="footer_col_link" href="">Loft in Dubai</a>
+            <a class="footer_col_link" href="">Penthouse in Dubai</a>
+            <a class="footer_col_link" href="">Villa in Dubai</a>
+          </div>
+          <div class="footer_info_col">
+            <h3 class="footer_col_title">Services</h3>
+            <a class="footer_col_link" href=""
+              >Property management in Dubai, UAE</a
+            >
+            <a class="footer_col_link" href="">Selproperty in Dubai, UAE</a>
+            <a class="footer_col_link">Rent property in Dubai, UAE</a>
+            <a class="footer_col_link" href="">Investments in Dubai, UAE</a>
+            <a class="footer_col_link" href=""
+              >Real estate for cryptocurrency in Dubai</a
+            >
+            <a class="footer_col_link" href="">Moving to Dubai, UAE</a>
+          </div>
+          <div class="footer_info_col">
+            <h3 class="footer_col_title">Information</h3>
+            <a class="footer_col_link" href="">Video</a>
+            <a class="footer_col_link" href="">Podcasts</a>
+            <a class="footer_col_link">Laws</a>
+            <a class="footer_col_link" href="">Questions and answers</a>
+            <a class="footer_col_link" href="">Books</a>
+            <a class="footer_col_link" href="">Articles</a>
+          </div>
+          <div class="footer_info_col">
+            <h3 class="footer_col_title">About company</h3>
+            <a class="footer_col_link" href="">Jobs </a>
+            <a class="footer_col_link" href="">Story</a>
+            <a class="footer_col_link">Licenses</a>
+            <a class="footer_col_link" href="">Why are we</a>
+            <a class="footer_col_link" href="">Real estate agency</a>
+          </div>
+          <div class="footer_info_col">
+            <h3 class="footer_col_title">Contact</h3>
+            <a class="footer_col_link" href=""
+              >964 Worthington Drive Dubai, UAE</a
+            >
+            <a class="footer_col_link" href="">dubairealty@mail.com</a>
+            <div class="footer_button_wrapper">
+              <button class="footer_button">Book a consultation</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- -------------------------------------------------------------------------- -->
+    
+    <div class="accordion_wrapper">
+      <div class="accordion_blok">
+        <button class="accordion">Buy</button>
+        <div class="panel">
+          <div class="panel_wrapper">
+            <a class="footer_col_link" href="">Apartment in Dubai</a>
+            <a class="footer_col_link" href="">House in Dubai</a>
+            <a class="footer_col_link">Apartments in Dubai</a>
+            <a class="footer_col_link" href="">Loft in Dubai</a>
+            <a class="footer_col_link" href="">Penthouse in Dubai</a>
+            <a class="footer_col_link" href="">Villa in Dubai</a>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------- -->
+      
+      <div class="accordion_blok">
+        <button class="accordion">Services</button>
+        <div class="panel">
+          <div class="panel_wrapper">
+            <a class="footer_col_link" href=""
+              >Property management in Dubai, UAE</a
+            >
+            <a class="footer_col_link" href="">Sell property in Dubai, UAE </a>
+            <a class="footer_col_link"> </a>
+            <a class="footer_col_link" href="">Rent property in Dubai, UAE </a>
+            <a class="footer_col_link" href="">Investments in Dubai, UAE </a>
+            <a class="footer_col_link" href=""
+              >Real estate for cryptocurrency in Dubai
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------- -->
+      <div class="accordion_blok">
+        <button class="accordion">Information</button>
+        <div class="panel">
+          <div class="panel_wrapper">
+            <a class="footer_col_link" href="">Video</a>
+            <a class="footer_col_link" href="">Podcasts </a>
+            <a class="footer_col_link"> Laws</a>
+            <a class="footer_col_link" href="">Questions and answers </a>
+            <a class="footer_col_link" href="">Books </a>
+            <a class="footer_col_link" href=""> Articles</a>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------- -->
+      <div class="accordion_blok">
+        <button class="accordion">About company</button>
+        <div class="panel">
+          <div class="panel_wrapper">
+            <a class="footer_col_link" href="">Jobs </a>
+            <a class="footer_col_link" href="">Story </a>
+            <a class="footer_col_link"> </a>
+            <a class="footer_col_link" href="">Licenses </a>
+            <a class="footer_col_link" href="">Why are we</a>
+            <a class="footer_col_link" href="">Real estate agency </a>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------- -->
+      <div class="accordion_blok">
+        <button class="accordion">Contact</button>
+        <div class="panel">
+          <div class="panel_wrapper">
+            <a class="footer_col_link" href="">
+              964 Worthington Drive Dubai, UAE
+            </a>
+            <a class="footer_col_link" href="">dubairealty@mail.com </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- ________________ -->
+    <section class="last_section">
+      <div class="container">
+        <div class="footer_social">
+          <p class="footer_social_text">Copyright © 2022 Dubai Realty</p>
+          <div class="footer_icon">
+            <a class="footer_icon_img" href="#"
+              ><img src="./img/Vector (1).png" alt=""
+            /></a>
+            <a class="footer_icon_img" href="#"
+              ><img src="./img/instagram.png" alt=""
+            /></a>
+            <a class="footer_icon_img" href="#">
+              <img src="./img/youtube.png" alt=""
+            /></a>
+            <a class="footer_icon_img" href="#"
+              ><img src="./img/youtube.png" alt=""
+            /></a>
+            <a class="footer_icon_img" href="#"
+              ><img src="./img/instagram.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+    <script src="burger.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

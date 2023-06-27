@@ -1,0 +1,83 @@
+.blog_section {
+  background: #272727;
+  padding-bottom: 100px;
+}
+.text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  color: #ffffff;
+}
+
+.iframe_contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.text_form {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: #fcd54c;
+}
+.span_form {
+  color: #ffffff;
+}
+.input {
+  border: 1px solid #c9c9c9;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #929292;
+  padding: 10px;
+  background: transparent;
+  width: 350px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+}
+.form_section {
+  padding-bottom: 100px;
+}
+.input_title {
+  padding: 50px 10px;
+  width: 100%;
+}
+.button {
+  background: #fcd54c;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #272727;
+  padding: 5px 20px;
+  width: 150px;
+}
+@media screen and (max-width: 800px) {
+  .text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 800px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    margin-bottom: 5px;
+  }
+}

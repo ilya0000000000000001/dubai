@@ -1,0 +1,101 @@
+.text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.blog_section {
+  background: #272727;
+  padding-bottom: 100px;
+  padding: 20px;
+}
+.blog_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+.blog_card {
+  max-width: 350px;
+  width: 100%;
+  border: 1px solid #fcd54c;
+  box-sizing: border-box;
+}
+.card_content {
+  padding: 20px;
+}
+.card_text_p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.img_blog {
+  width: 100%;
+}
+.text_blog {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #929292;
+}
+.card_text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1150px) {
+  .blog_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .blog_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  .text_blog {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+  .card_text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+  .card_text_p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 750px) {
+  .blog_section {
+    padding: 50px;
+  }
+}
